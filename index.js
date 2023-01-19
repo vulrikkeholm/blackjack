@@ -1,5 +1,5 @@
 let player = {
-    name: "Per",
+    name: "Thor",
     chips: 200
 }
 
@@ -14,6 +14,8 @@ let cardsEl = document.getElementById("cards-el")
 let playerEl = document.getElementById("player-el")
 
 playerEl.textContent = player.name + ": $" + player.chips
+
+console.log("hej")
 
 function getRandomCard() {
     let randomNumber = Math.floor( Math.random()*13 ) + 1
